@@ -41,4 +41,4 @@ function storeAllData() {
 function showAllData() {
     ul.innerHTML = localStorage.getItem("data");
 }
-showAllData();
+showAllData()
